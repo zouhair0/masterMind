@@ -17,32 +17,32 @@ public class masterMindTest
 	}
 	
 	@Test
-	public void testCalculate1_2() {
+	public void testCalculate_2() {
 		assertEquals(App.calculate("1234","2002"), "-");
 	}
 	
 	@Test
-	public void testCalculate1_3() {
+	public void testCalculate_3() {
 		assertEquals(App.calculate("1234" ,"2200"), "+");
 	}
 	
 	@Test
-	public void testCalculate1_4() {
+	public void testCalculate_4() {
 		assertEquals(App.calculate("3129","1249"), "+--");
 	}
 	
 	@Test
-	public void testCalculate1_5() {
+	public void testCalculate_5() {
 		assertEquals(App.calculate("1234","1234"), "++++");
 	}
 	
 	@Test
-	public void testCalculate1_6() {
+	public void testCalculate_6() {
 		assertEquals(App.calculate("2234","2234"), "++++");
 	}
 	
 	@Test
-	public void testCalculate1_7() {
+	public void testCalculate_7() {
 		assertEquals(App.calculate("7688","7680"), "+++");
 	}
 }
