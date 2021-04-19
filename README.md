@@ -1,3 +1,5 @@
+[FR]
+
 # masterMind
 Le projet consiste à implementer un jeu de mastermind en ligne de commande en java :
 
